@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bridge to Inclusion</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #fefefe;
+      color: #222;
+      line-height: 1.5;
+    }
+    header {
+      background: #007acc;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      opacity: 0;
+      animation: fadeIn 2s forwards;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .post {
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 1rem;
+    }
+    .post img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    .post-title {
+      font-size: 1.5rem;
+      margin: 0.5rem 0;
+      color: #007acc;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #f0f0f0;
+      margin-top: 3rem;
+    }
+    footer a {
+      margin: 0 0.5rem;
+      color: #007acc;
+      text-decoration: none;
+    }
+    @keyframes fadeIn {
+      to {opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Bridge to Inclusion</h1>
+  <p>Your gateway to equity and justice</p>
+</header>
+
+<main>
+  <section class="post">
+    <a href="post1.html" class="post-title">Understanding Community Empowerment</a>
+    <img src="images/post1.jpg" alt="Community Empowerment" />
+    <p>Explore the foundations of empowering marginalized communities through actionable steps and shared knowledge.</p>
+  </section>
+
+  <section class="post">
+    <a href="post2.html" class="post-title">Bridging Gaps in Education</a>
+    <img src="images/post2.jpg" alt="Education" />
+    <p>A look at how targeted programs help close educational disparities across different demographics.</p>
+  </section>
+
+  <section class="post">
+    <a href="post3.html" class="post-title">Creating Inclusive Workspaces</a>
+    <img src="images/post3.jpg" alt="Workspaces" />
+    <p>Best practices and policies that foster inclusion and belonging in professional environments.</p>
+  </section>
+</main>
+
+<footer>
+  <a href="https://twitter.com/bridge_inclusion" target="_blank" rel="noopener noreferrer">Twitter</a> |
+  <a href="https://facebook.com/bridge_inclusion" target="_blank" rel="noopener noreferrer">Facebook</a> |
+  <a href="https://instagram.com/bridge_inclusion" target="_blank" rel="noopener noreferrer">Instagram</a>
+</footer>
+
+</body>
+</html>
